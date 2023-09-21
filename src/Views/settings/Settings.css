@@ -1,0 +1,67 @@
+.settings-container {
+  background-color: #151515;
+  display: flex;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  padding-top: 2.8em;
+  padding-bottom: 5em;
+}
+
+.settings-content {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  width: 418px;
+  padding-top: 3.375em;
+}
+
+.settings-label {
+  font-size: 1.1em;
+}
+
+.settings-label:first-child {
+  margin-bottom: 2.5em;
+  font-size: 1.3em;
+}
+
+.settings-input-group {}
+
+.settings-list {
+  padding-left: 0px;
+  width: 100%;
+  list-style: none;
+}
+
+.settings-list li:not(.video-quality-section) {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  border-bottom: solid 2px #252525;
+}
+
+.settings-list li .option-icon img {
+  height: 24px;
+  width: 24px;
+  margin-right: 15px;
+  border-radius: 4px;
+}
+
+.option-description {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.option-description-video {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+}
+
+.dropdown-list {
+  padding-top: 20px;
+}

@@ -10,7 +10,7 @@ module.exports = {
     module: {
         rules: [
             {
-                test: /\.(png|jpe?g|gif|svg)$/i,
+                test: /\.(png|jpe?g|gif|svg|webp)$/i,
                 use: [
                     {
                         loader: 'file-loader',
@@ -44,5 +44,10 @@ module.exports = {
     ],
     resolve: {
         extensions: ['.js', '.jsx'],
-    }
+    },
+    devServer: {
+        historyApiFallback: true,
+        contentBase: './',
+        hot: true
+     }
 };

@@ -1,0 +1,37 @@
+.movie-card-container {
+  width: 90%;
+  display: inline-block;
+  transition: all 0.5s ease;
+}
+
+.movie-card-inner-container {
+  height: 100%;
+  position: relative;
+  text-align: center;
+  opacity: 1;
+  border-radius: 0.8375em;
+  background-color: #333;
+  min-height: fit-content;
+  transition: transform 0.25s cubic-bezier(0.33, 0.04, 0.63, 0.93);
+  outline: none;
+  border: none;
+}
+
+.movie-card-container:hover {
+  transform: scale(1.1);
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1599px) {
+  .movie-card-container .movie-card-inner-container {
+    width: calc(100vw * 0.12153);
+    height: calc(100vw * 0.182);
+  }
+}
+
+.top-num {
+  position: absolute;
+  bottom: 10px;
+  font-size: 10vh;
+  color: white;
+  font-weight: bold;
+}

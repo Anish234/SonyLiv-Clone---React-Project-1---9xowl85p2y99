@@ -1,0 +1,95 @@
+::-webkit-scrollbar {
+  width: 4px;
+  height: 0px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: grey;
+}
+
+html {
+  box-sizing: border-box;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  overflow-x: hidden !important;
+  background-color: #151515;
+  color: #fff !important;
+}
+
+a:not(.normal-link) {
+  color: #61dafb;
+  text-decoration: none;
+}
+
+.normal-link {
+  color: white;
+  text-decoration: none;
+}
+
+.header-menu-link {
+  display: flex;
+  color: #ffffff;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-weight: 300;
+}
+
+.menu-react-logo {
+  display: flex;
+  column-gap: 10px;
+  font-weight: bold;
+}
+
+.d-f-ji-c {
+  display: flex;
+  align-items: center;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.c-pointer {
+  cursor: pointer;
+}
+
+.font-14px {
+  font-size: 14px;
+}
+
+.mb-2 {
+  margin-bottom: 0.5em;
+}
+
+.ml-16px {
+  margin-left: 16px;
+}
+
+.ml-6px {
+  margin-left: 6px;
+}
+
+.body-bg {
+  background: #212121;
+}
+
+.mr-1em {
+  margin-right: 1em;
+}

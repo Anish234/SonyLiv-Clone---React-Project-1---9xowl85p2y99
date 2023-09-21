@@ -1,0 +1,47 @@
+.mySwiper.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.mySwiper .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 0.8375em;
+}
+
+.listing-label {
+  margin-top: 18px;
+  color: #fff;
+  width: 100%;
+  display: inline-block;
+  text-align: start;
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1200px) {
+
+  .listing-label,
+  .mySwiper {
+    margin-left: 0.9375em !important;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+
+  .listing-label,
+  .mySwiper {
+    margin-left: 1.25em !important;
+  }
+}
+
+
+.movie-big-banner {
+  padding: 2.75em;
+}
+
+.movie-big-banner img {
+  min-height: 150px;
+  object-fit: fill;
+  width: 100%;
+}

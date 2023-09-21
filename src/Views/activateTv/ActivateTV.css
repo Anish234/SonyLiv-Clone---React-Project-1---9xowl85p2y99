@@ -1,0 +1,75 @@
+.activate-tv-container {
+  background-color: #151515;
+  display: flex;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+  padding-top: 2.8em;
+  padding-bottom: 5em;
+}
+
+.activate-tv-content {
+  text-align: center;
+  display: flex;
+  flex-flow: column;
+  width: 418px;
+  padding-top: 3.375em;
+}
+
+.activate-tv-label {
+  font-size: 1.1em;
+}
+
+.activate-tv-label:first-child {
+  margin-bottom: 2.5em;
+  font-size: 1.3em;
+}
+
+.activate-tv-otp-input-group {
+  display: flex;
+  justify-content: center;
+  column-gap: 25px;
+  margin-bottom: 3em;
+}
+
+.activate-tv-otp-input-group input {
+  width: 35px;
+  background: transparent;
+  outline: none;
+  border: 0;
+  border-bottom: 2px solid #6c6c6c;
+  color: white;
+  font-size: 3em;
+}
+
+.activate-tv-otp-input-group input:focus-visible {
+  outline: none;
+  border-bottom-color: white !important;
+}
+
+.activate-tv-otp-input-group input::-webkit-outer-spin-button,
+.activate-tv-otp-input-group input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.activate-tv-otp-input-group input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.activate-tv-btn {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  font-size: 1.2em;
+  padding: 15px 0;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.activate-tv-btn:disabled {
+  background: rgb(54, 54, 54);
+  color: #969696;
+  border: none;
+}

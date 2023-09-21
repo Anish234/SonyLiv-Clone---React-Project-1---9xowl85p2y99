@@ -1,0 +1,20 @@
+form {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    border: solid black;
+    background-image: url('https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i6JfL9GRL27A/v1/1400x883.jpg');
+    background-size: cover;
+}
+
+.input {
+    height: 50px;
+    width: 24%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    background-color: #333;
+    color: white;
+    font-weight: 600;
+}
